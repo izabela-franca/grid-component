@@ -1,0 +1,105 @@
+main {
+    background-color: hsl(201, 61%, 94%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.conteudo__principal {
+    background-color: white;
+    grid-area: principal;
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+    text-align: start;
+}
+
+.conteudo__principal--titulo {
+    color: hsl(179, 62%, 43%);
+    padding: 1rem 1.8rem 1rem 1.8rem;
+}
+
+.conteudo__principal--subtitulo {
+    color: hsl(71, 73%, 54%);
+    padding: 0 1.8rem 1rem 1.8rem;
+}
+
+.conteudo__principal--descricao {
+    color: hsl(201, 6%, 78%);
+    padding: 0 1.8rem 1rem 1.8rem
+}
+
+.conteudo__assinatura {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    grid-area: assinatura;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.conteudo__assinatura--subtitulo {
+    color: hsl(201, 7%, 100%);
+    font-size: 1.2rem;
+    padding: 1rem 1.8rem 0 1.8rem;
+}
+
+.conteudo__assinatura--preco {
+    color: hsl(201, 7%, 100%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0 1.8rem 0 1.8rem;
+}
+
+.conteudo__beneficios {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(181, 61%, 50%);
+    grid-area: beneficios;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.conteudo__beneficios--subtitulo {
+    color: hsl(201, 7%, 100%);
+    padding: 1rem 1.8rem 1rem 1.8rem;
+    text-align: center;
+}
+
+.conteudo__beneficios--descricao {
+    color: hsl(201, 7%, 100%);
+    padding: 0 1.8rem 1rem 1.8rem;
+    text-align: center;
+}
+
+.conteudo__beneficios--botao {
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    border-radius: 5%;
+    color: hsl(201, 7%, 100%);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
+/*-----------Responsividade-----------*/
+
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        font-size: 16px;
+        grid-template-areas:
+        "principal"
+        "assinatura"
+        "beneficios" ;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        padding: 10% 20% 10% 20%;
+        height: 100vh;
+    }
+}
