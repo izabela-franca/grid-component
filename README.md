@@ -5,7 +5,7 @@ Preview:
 
 - Desktop:
 
-![image](https://user-images.githubusercontent.com/101933646/167266881-4f4bc492-affd-461f-888d-c3eab012059c.png)
+![image](https://user-images.githubusercontent.com/101933646/167267153-99cc33c6-1bfc-4645-a51e-acfa0d16ee5e.png)
 
 
 - Mobile:
