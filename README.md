@@ -1,7 +1,12 @@
 # price-grid-component
-A project using HTML and CSS to practice grid and flexbox. / Um projeto usando HTML e CSS para praticar grid e flexbox.
+A project using HTML and CSS to practice grid and flexbox.
+_______________________________________________________________________________________________________
+
+Um projeto usando HTML e CSS para praticar grid e flexbox.
+_________________________________________________________________________________________________________
 
 Link: https://izabela-franca.github.io/price-grid-component/
+_______________________________________________________________________________________________________
 
 Preview:
 
