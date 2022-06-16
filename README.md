@@ -1,4 +1,4 @@
-# price-grid-component
+# grid-component
 A project using HTML and CSS to practice grid and flexbox.
 _______________________________________________________________________________________________________
 
