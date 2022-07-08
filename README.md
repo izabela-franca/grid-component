@@ -5,7 +5,7 @@ ________________________________________________________________________________
 Um projeto usando HTML e CSS para praticar grid e flexbox.
 _________________________________________________________________________________________________________
 
-Link: https://izabela-franca.github.io/price-grid-component/
+Link: https://izabela-franca.github.io/grid-component/
 _______________________________________________________________________________________________________
 
 Preview:
