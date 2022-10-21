@@ -1,15 +1,5 @@
 
-
-
-_________________________________________________________________________________________________________
-
-
-
-
-
-
-
-<h1 align="center"> Calculadora  </h1>
+<h1 align="center"> Componente de Preço</h1>
 
 <p align="center">
 Olá, sejam bem-vindos(as)!
